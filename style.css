@@ -1,0 +1,78 @@
+/* CSS Styling of Colour flipper */
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+header {
+    background-color: rgb(0, 0, 55);
+    color: aqua;
+    font-family: "Titillium Web", sans-serif;
+    font-size: x-large;
+    padding: 40px 40px;
+    align-items: center;
+    width: auto;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+}
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+header h1 {
+    grid-column: span 6;
+}
+
+header nav {
+    grid-column: 7/ span 6;
+    justify-self: right;
+}
+
+header nav a {
+    text-decoration: none;
+    color: rgb(0, 89, 254);
+    margin-left: 20px;
+    font: bold;
+    font-size: x-large;
+}
+
+body nav a {
+    text-decoration: none;
+}
+
+.article {
+    font-family: "Titillium Web", sans-serif;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    height: 160px;
+    width: 400px;
+    padding: 80px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.btnclick {
+    color: white;
+    background-color: black;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 20px;
+    min-width: 80px;
+    
+}
